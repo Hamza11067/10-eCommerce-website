@@ -1,8 +1,11 @@
+import { Hero } from "../components";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <>
+      <Hero />
+    </>
+  );
+};
 
-export default Shop
+export default Shop;
