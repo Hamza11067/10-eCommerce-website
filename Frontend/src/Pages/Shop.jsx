@@ -1,9 +1,10 @@
-import { Hero } from "../components";
+import { Hero, Popular } from "../components";
 
 const Shop = () => {
   return (
     <>
       <Hero />
+      <Popular />
     </>
   );
 };
