@@ -1,4 +1,4 @@
-import { Navbar } from "./components"
+import { Footer, Navbar } from "./components"
 import { Shop, Cart, ShopCategory, LoginSignup, Product } from "./Pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -19,6 +19,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<LoginSignup />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       </div>
     </>
