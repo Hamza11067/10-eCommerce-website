@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import { createContext } from "react";
-import all_product from "../Assets/all_product";
+import all_products from "../Assets/all_products";
 
 export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
-  const contextValue = { all_product };
+  const contextValue = { all_products };
 
   return (
     <ShopContext.Provider value={contextValue}>
